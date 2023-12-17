@@ -1,0 +1,122 @@
+/* Estilos para el cuerpo del texto */
+body {
+    background-color: #eee;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #0b3916;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#titulo {
+    margin: 0 0 25px 0;
+    font-size: 2em;
+    letter-spacing: .2rem;
+    text-shadow: 8px 8px 2px black;
+}
+
+/* Estilos para la barra de navegación */
+#menuPrincipal {
+    background-color: #126620;
+    padding: 5px 0;
+}
+
+#menuPrincipal ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menuPrincipal ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+/* Estilos para los enlaces */
+.enlaceMenuPrincipal {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.enlaceMenuPrincipal:hover {
+    background-color: #fff;
+    color: rgb(85, 122, 13);
+}
+
+/* Estilos para la sección principal */
+.tituloSeccion {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+article {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: rgb(29, 111, 22);
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+#enlaces-legales {
+    margin-top: 30px;
+}
+
+#enlaces-legales a {
+    color: white;
+    text-decoration: none;
+}
+
+#enlaces-legales a:hover {
+    color: rgb(17, 15, 76);
+}
+  
+#enlaces-legales li {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+/*Estilos del cuerpo*/
+
+.contenedorCentrado {
+    text-align: center;
+}
+
+#listadoObjetivos li {
+    margin-bottom: 15px;
+}
+
+#contenedorFormulario {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url("../img/hoja.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.cuadroTexto {
+    width: 100%;
+    margin-bottom: 10px;
+}
